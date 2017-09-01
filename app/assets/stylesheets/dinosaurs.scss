@@ -1,7 +1,39 @@
 // Place all the styles related to the dinosaurs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.main_list {
+  padding: 50 px;
+}
 
 h1 {
-  color: darkred;
+  font: 400 50px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li:last-child {
+ border: none;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+ display: block;
+ width: 200px;
+
+}
+
+
+li a:hover {
+ font-size: 30px;
 }

@@ -1,9 +1,9 @@
 <h1>Dinosaurs</h1>
 
-<div>
+<div class="main_list">
 <ul>
   <% @dinosaurs.each do |dinosaur| %>
-      <p><%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %></p>
+      <li><p><%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %></p><li>
   <% end %>
 </ul>
 </div>
